@@ -25,7 +25,7 @@ function ScrollTop(props) {
   const handleClick = (event) => {
     const anchor = (
       event.target.ownerDocument || document
-    ).querySelector('#back-to-top-anchor');
+    ).querySelector('#back-to-Home');
 
     if (anchor) {
       anchor.scrollIntoView({
@@ -67,6 +67,15 @@ export default function BackToTop(props) {
   
     const handleCloseUserMenu = () => {
       setAnchorElUser(null);
+    };
+  
+    const gotoPage = (pageName) => {
+      const anchor = document.querySelector('#back-to-'+pageName);
+
+      if (anchor) {
+        const getTop = el => el.offsetTop + (el.offsetParent && getTop(el.offsetParent));
+        window.scrollTo(0, getTop(anchor)-80);
+      }
     };
   return (
     <React.Fragment>
@@ -121,7 +130,7 @@ export default function BackToTop(props) {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} onClick={ () => { handleCloseNavMenu(); gotoPage(page); } }>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -131,7 +140,7 @@ export default function BackToTop(props) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={ () => { handleCloseNavMenu(); gotoPage(page); } }
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
@@ -171,7 +180,7 @@ export default function BackToTop(props) {
         </Toolbar>
       </Container>
     </AppBar>
-      <Toolbar id="back-to-top-anchor" />
+      <Toolbar id="back-to-Home" />
       <ScrollTop {...props}>
         <Fab color="secondary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />

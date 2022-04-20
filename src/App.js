@@ -11,7 +11,8 @@ import WorkExperience from "./pages/WorkExperience";
 function App() {
     const skillNames = [ "HTML", "JavaScript", "JavaScript", "x", "x", "x", "x", "x", "x"];
     const skillValues = [ 80, 90, 100, 90, 90, 90, 90, 90, 90 ];
-    const pages = ['Home', 'About', 'Skills', 'Portfolio', 'WorkExperience', 'Contact'];
+    const pages = ['Home', 'About', 'Skills', 'WorkExperience'];
+    
     const settings = ['Rain', 'Line', 'Star'];
     const [particleVal, setParticleVal] = React.useState('Line');
     const selectParitlces = function (val) {

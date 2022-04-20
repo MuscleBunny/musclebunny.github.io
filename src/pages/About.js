@@ -18,6 +18,7 @@ export default function About() {
   ];
   return (
     <CustomCard actions={actions}>
+      <div id={"back-to-About"}></div>
       <Avatar alt="Remy Sharp" src="../assets/avatar.jpg" sx={{width: "300px", height: "300px", float: "right", margin: "20px"}} />
       <CardContent>
         <TypographyCaption>

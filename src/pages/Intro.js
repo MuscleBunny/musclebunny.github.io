@@ -58,7 +58,6 @@ function Intro(props) {
             eraseDelay="100"
             />
             </Typography>
-            
         </Box>
     );
 }

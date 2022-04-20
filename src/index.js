@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+import './index.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#252934",
+    },
+    secondary: {
+      main: '#282A37',
+    },
+    error: {
+      main: '#e31b6d',
+    },
+  },
+});
+
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
     <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -9,7 +9,7 @@ const cardStyle = {
 }
 
 const capStyle = {
-    backgroundColor: "#bdbdbd",
+    backgroundColor: "#eee",
     padding: "20px",
     marginBottom: "0px",
     maxWidth: "25%",
@@ -31,7 +31,7 @@ const contentCapStyle = {
 export default function ColorCard(props) {
   return (
     <Card style={cardStyle}>
-        <div style={capStyle} color="primary">
+        <div style={capStyle} color="primary" backgroundColor="error" color="error">
             <Typography gutterBottom variant="body2">
                 {props.period}
             </Typography>

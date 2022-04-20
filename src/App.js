@@ -9,8 +9,8 @@ import Skills from "./pages/Skills";
 import WorkExperience from "./pages/WorkExperience";
 
 function App() {
-    const skillNames = [ "HTML", "JavaScript", "JavaScript", "x", "x", "x", "x", "x", "x"];
-    const skillValues = [ 80, 90, 100, 90, 90, 90, 90, 90, 90 ];
+    const skillNames = [ "HTML", "CSS", "JavaScript", "React", "Laravel", "Vue", "DJango", "Solidity", "Smart Contract", "Web3", "Ethereum", "NFT"];
+    const skillValues = [ 100, 100, 100, 100, 100, 80, 90, 100, 100, 100 , 80, 100 ];
     const pages = ['Home', 'About', 'Skills', 'WorkExperience'];
     
     const settings = ['Rain', 'Line', 'Star'];

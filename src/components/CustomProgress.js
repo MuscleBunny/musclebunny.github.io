@@ -4,8 +4,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 const barStyle = {
-    backgroundColor: '#bdbdbd',
-    height: "30px",
+    backgroundColor: '#eee',
+    height: "5px",
     width: "100%",
     position: 'relative',
     justifyContent: 'center'
@@ -23,7 +23,8 @@ const containerStyle = {
     display: 'flex',
     flexDirection: "column",
     marginBottom: "20px",
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginTop: "40px",
 }
 
 export default function CustomProgress(props) {

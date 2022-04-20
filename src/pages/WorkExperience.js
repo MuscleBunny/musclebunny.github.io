@@ -1,9 +1,7 @@
 import * as React from 'react';
 import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 
 import ColorCard from '../components/ColorCard'
-import CustomCard from '../components/CustomCard'
 import TypographyCaption from '../components/TypographyCaption'
 
 const divStyle = {

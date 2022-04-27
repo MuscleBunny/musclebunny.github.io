@@ -18,20 +18,22 @@ export default function About() {
   ];
   return (
     <CustomCard actions={actions}>
+      <div style={{display:'flex'}}>
       <div id={"back-to-About"}></div>
-      <Avatar alt="Remy Sharp" src="../assets/avatar.jpg" sx={{width: "300px", height: "300px", float: "right", margin: "20px"}} />
-      <CardContent>
+      <CardContent sx={{width:'100%'}}>
         <TypographyCaption>
           About Me
         </TypographyCaption>
         <Typography variant="body2" color="secondary">
         Who am I?<br/>
-        XXX has a great '' in software engineering and has been a full-stack developer since 2017.<br/>
+        Akira has a great '' in software engineering and has been a full-stack developer since 2017.<br/>
         As a big crypto enthusiast, he decided to fully focus on blockchain development.<br/>
         He already has big experience with Smart Contract and dApps creation where most of them were built using Ethereum(public or private network).<br/>
-        XXX is a great team player and takes time understanding projects and delivering in them in the best way.
+        Akira is a great team player and takes time understanding projects and delivering in them in the best way.
         </Typography>
       </CardContent>
+      <Avatar alt="Remy Sharp" src="../assets/avatar.jpg" sx={{width: "300px", height: "300px", float: "right", margin: "20px"}} />
+      </div>
     </CustomCard>
   );
 }

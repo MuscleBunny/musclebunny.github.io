@@ -48,7 +48,7 @@ function Intro(props) {
                 pointerEvents: "none"
             }}>
                 <Typography variant="h3" color="white">Hello I'm&nbsp;</Typography>
-                <Typography variant="h3" color="error">XXX</Typography>
+                <Typography variant="h3" color="error">Akira Haruto</Typography>
                 <Typography variant="h3" color="white">.</Typography>
             </Box>
             <Typography variant="h3" color="white">

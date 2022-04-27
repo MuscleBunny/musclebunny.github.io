@@ -14,7 +14,7 @@ export default function WorkExperience() {
   return (
     <div style={divStyle} id={"back-to-WorkExperience"}>
     <TypographyCaption>
-      WorkExperience
+      Work Experience
     </TypographyCaption>
       <CardContent>
         <ColorCard caption={"VAI CRYPTO"} period={'AUG 2021 - APR 2022'} contentCap={'Smart Contract Developer'}

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from "react-dom/client";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import './index.css'
@@ -20,13 +20,15 @@ const theme = createTheme({
   },
 });
 
-ReactDOM.render(
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
     <App />
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

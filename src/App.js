@@ -7,14 +7,17 @@ import Intro from "./pages/Intro";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import WorkExperience from "./pages/WorkExperience";
+import Education from "./pages/Education";
+import Employment from "./pages/Employment";
+import Portfolio from "./pages/Portfolio"
 
 function App() {
     const skillNames = [ "HTML", "CSS", "JavaScript", "React", "Laravel", "Vue", "DJango", "Solidity", "Smart Contract", "Web3", "Ethereum", "NFT"];
     const skillValues = [ 100, 100, 100, 100, 100, 80, 90, 100, 100, 100 , 80, 100 ];
-    const pages = ['Home', 'About', 'Skills', 'WorkExperience'];
+    const pages = ['Home', 'About', 'Skills', 'Portfolio', 'Employment', 'WorkExperience', 'Education'];
     
     const settings = ['Rain', 'Line', 'Star'];
-    const [particleVal, setParticleVal] = React.useState('Line');
+    const [particleVal, setParticleVal] = React.useState('Rain');
     const selectParitlces = function (val) {
         switch(val) {
             case "Rain":
@@ -36,7 +39,10 @@ function App() {
             <Intro particleValue={particleVal}></Intro>
             <About></About>
             <Skills skillNames={skillNames} skillValues={skillValues}></Skills>
+            <Portfolio></Portfolio>
+            <Employment></Employment>
             <WorkExperience></WorkExperience>
+            <Education></Education>
         </CustomBox>
     );
 }

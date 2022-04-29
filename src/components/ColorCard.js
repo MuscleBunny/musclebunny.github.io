@@ -13,6 +13,7 @@ const capStyle = {
     padding: "20px",
     marginBottom: "0px",
     maxWidth: "25%",
+    minWidth: "25%",
     width: "100%",
     textAlign: "center",
     justifyContent: 'center',
@@ -34,6 +35,9 @@ export default function ColorCard(props) {
         <div style={capStyle} color="primary" backgroundcolor="error">
             <Typography gutterBottom variant="body2">
                 {props.period}
+            </Typography>
+            <Typography gutterBottom variant="body2">
+                {props.co}
             </Typography>
             <Typography gutterBottom variant="h6">
                 {props.caption}

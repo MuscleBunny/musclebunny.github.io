@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.967f0ca6.js",
+    "main.js": "/static/js/main.d4d8343c.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
+    "static/media/ethBot.jpg": "/static/media/ethBot.f8031157b4c109fe9e50.jpg",
+    "static/media/zigzagtrade.jpg": "/static/media/zigzagtrade.f336d82f57aa48c78f62.jpg",
+    "static/media/ethichub.jpg": "/static/media/ethichub.8dd42b37502d166ad978.jpg",
+    "static/media/portion.jpg": "/static/media/portion.cb853aa9bbce78074b19.jpg",
+    "static/media/memorial.jpg": "/static/media/memorial.492c657e7fd84c44a0dc.jpg",
+    "static/media/chatify.jpg": "/static/media/chatify.cba3b1232b444cd4e00a.jpg",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.967f0ca6.js.map": "/static/js/main.967f0ca6.js.map",
+    "main.d4d8343c.js.map": "/static/js/main.d4d8343c.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.967f0ca6.js"
+    "static/js/main.d4d8343c.js"
   ]
 }

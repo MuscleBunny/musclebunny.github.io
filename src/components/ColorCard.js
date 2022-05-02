@@ -36,9 +36,9 @@ export default function ColorCard(props) {
             <Typography gutterBottom variant="body2">
                 {props.period}
             </Typography>
-            <Typography gutterBottom variant="body2">
+            {/* <Typography gutterBottom variant="body2">
                 {props.co}
-            </Typography>
+            </Typography> */}
             <Typography gutterBottom variant="h6">
                 {props.caption}
             </Typography>

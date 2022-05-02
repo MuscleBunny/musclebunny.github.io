@@ -9,13 +9,21 @@ const cardStyle = {
   position: "relative",
 }
 
+const actionStyle = {
+  display: 'block'
+}
+/*
+const buttonStyle = {
+  backgroundColor: 'rgba(0, 0, 0, 0.05)'
+}
+*/
 export default function CustomCard(props) {
   return (
     <Card style={cardStyle}>
       {props.children}
-      <CardActions>
+      <CardActions style={actionStyle}>
         {props.actions ? props.actions.map( (action, index) => {
-          return <Button onClick={action.action} size="small" key={index}>{action.name}</Button>
+          return <Button size="small" key={index}>{action}</Button>
         } ) : "" }
       </CardActions>
     </Card>

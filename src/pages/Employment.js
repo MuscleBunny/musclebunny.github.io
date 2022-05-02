@@ -26,8 +26,8 @@ export default function Employment() {
             <li>Used IPFS for image storage with NFT metadata pointing to IPFS.</li>
           </ul>
         </ColorCard>
-        <ColorCard caption={"Zigzag Exchange"} period={'JAN 2020 - AUG 2020'}
-          contentCap={'Solidity | Smart Contracts | DeFi Web3 Developer'}
+        <ColorCard caption={"Decentralized Exchange"} period={'JAN 2020 - AUG 2020'}
+          contentCap={'Web3 | Smart Contracts Web3 Developer'}
           co={'Zigzag'}>
           <ul>
             <li>Built crypto exchange platform.</li>
@@ -36,12 +36,12 @@ export default function Employment() {
           </ul>
         </ColorCard>
         <ColorCard
-          caption={"Ethic Hub"}
+          caption={"Crowdlending"}
           co={"Ethic Hub"}
           period={'OCT 2018 - DEC 2019'}
           contentCap={'Blockchain Developer'}>
           <ul>
-            <li>Developed the first version of Ethichub's P2P lending platform based on Ethereum.</li>
+            <li>Developed the {/* first version of Ethichub's */} P2P lending platform based on Ethereum.</li>
             <li>Organized and successfully carried out a pre-ICO for project fundraising.</li>
             <li>Participated in technical meetings about designing the Ethichub solution.</li>
           </ul>
@@ -50,7 +50,7 @@ export default function Employment() {
           caption={"Chatify"}
           period={'JAN 2018 - OCT 2018'}
           co={'X2O Media'}
-          contentCap={'Senior Software Developer (Node.js)'}>
+          contentCap={'Senior Full Stack Developer'}>
           <ul>
             <li>Developed and maintained a platform for real-time communication based on Node.js and Socket.IO.</li>
             <li>Built an Express.js + Socket.IO web server.</li>

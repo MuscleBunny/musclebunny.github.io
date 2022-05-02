@@ -32,13 +32,13 @@ export default function About() {
       Portfolio
     </TypographyCaption>
         <MediaCard actions={actions} imageSrc={Zigzag}>
-        Zigzag Trade
+        Decentralized Exchange
         </MediaCard>
         <MediaCard actions={actions} imageSrc={Portion}>
-        Portion Marketplace
+        NFT Marketplace
         </MediaCard>
         <MediaCard actions={actions} imageSrc={Ethichub}>
-        Ethic Hub
+        Crowdlending
         </MediaCard>
         <MediaCard actions={actions} imageSrc={Chatify}>
         Chatify

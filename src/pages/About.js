@@ -8,17 +8,9 @@ import TypographyCaption from '../components/TypographyCaption'
 import MyPhoto from '../assets/avatar.jpg'
 
 export default function About() {
-  const handleShare = function () {
-    alert('a');
-  }
-  const actions = [
-    {
-      name: "Share",
-      action: handleShare,
-    }
-  ];
+  const actions = [ "Share", "Share", "Share", "Share", "Share", "Share", "Share", "Share", ];
   return (
-    <CustomCard actions={actions}>
+    <CustomCard actions={[]}>
       <div style={{display:'flex'}}>
       <div id={"back-to-About"}></div>
       <CardContent sx={{width:'100%'}}>
@@ -27,9 +19,9 @@ export default function About() {
         </TypographyCaption>
         <Typography variant="body2" color="secondary">
         Who am I?<br/>
-        Akira has a great '' in software engineering and has been a full-stack developer since 2017.<br/>
-        As a big crypto enthusiast, he decided to fully focus on blockchain development.<br/>
-        He already has big experience with Smart Contract and dApps creation where most of them were built using Ethereum(public or private network).<br/>
+        As a full-stack and blockchain developer Akira has a great breadth and depth of experience include NFT.<br/>
+        He is experienced with many DApps and Smart Contracts.<br/>
+        He has worked on a variety of projects at companies of all sizes. He has been an important problem solver in the teams and never failed to deliver quality work with his hard work and problem-solving skills.
         Akira is a great team player and takes time understanding projects and delivering in them in the best way.
         </Typography>
       </CardContent>

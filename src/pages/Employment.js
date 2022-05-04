@@ -27,12 +27,12 @@ export default function Employment() {
           </ul>
         </ColorCard>
         <ColorCard caption={"Decentralized Exchange"} period={'JAN 2020 - AUG 2020'}
-          contentCap={'Web3 | Smart Contracts Web3 Developer'}
+          contentCap={'Web3 | Smart Contracts Developer'}
           co={'Zigzag'}>
           <ul>
-            <li>Built crypto exchange platform.</li>
+            <li>Built crypto exchange platform with React and web3.js.</li>
             <li>Create smart contract to build cryptocurrency exchange system.</li>
-            <li>Built the front end in React and integrated with Web3.js.</li>
+            <li>Built the front end of cryptocurrency exchange system in React and integrated with Web3.js.</li>
           </ul>
         </ColorCard>
         <ColorCard
@@ -59,7 +59,7 @@ export default function Employment() {
           </ul>
         </ColorCard>
         <ColorCard
-          caption={"Avata Engines"}
+          caption={"Avatar Engines"}
           period={'MAR 2017 - NOV 2017'}
           co={'Avatar Engines LLC'}
           contentCap={'Full Stack Developer'}>

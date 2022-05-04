@@ -19,7 +19,7 @@ export default function About() {
         </TypographyCaption>
         <Typography variant="body2" color="secondary">
         Who am I?<br/>
-        As a full-stack and blockchain developer Akira has a great breadth and depth of experience include NFT.<br/>
+        As a full-stack and blockchain developer, Akira has a great breadth and depth of experience include NFT.<br/>
         He is experienced with many DApps and Smart Contracts.<br/>
         He has worked on a variety of projects at companies of all sizes. He has been an important problem solver in the teams and never failed to deliver quality work with his hard work and problem-solving skills.
         Akira is a great team player and takes time understanding projects and delivering in them in the best way.

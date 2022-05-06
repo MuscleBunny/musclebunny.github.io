@@ -53,7 +53,7 @@ function Intro(props) {
             </Box>
             <Typography variant="h3" color="white">
             <ReactTypingEffect
-            text="I'm a Fullstack developer ... "
+            text="I'm a Blockchain developer ... "
             speed="100"
             eraseDelay="100"
             />

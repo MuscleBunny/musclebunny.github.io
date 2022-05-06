@@ -17,22 +17,24 @@ export default function Employment() {
       Employment
     </TypographyCaption>
       <CardContent>
-        <ColorCard caption={"NFT Marketplace"} period={'AUG 2020 - Feb 2022'} contentCap={'Smart Contract Developer'}
+        <ColorCard caption={"NFT Marketplace"} period={'AUG 2020 - Feb 2022'} contentCap={'Senior Frontend | Smart Contract Developer'}
           co={'Portion'}>
           <ul>
             <li>Developed an app similar to OpenSea that creates a marketplace of NFTs.</li>
             <li>Built and deployed NFT smart contracts to the Palm net.</li>
+            <li>Built a frontend app for minting and staking NFTs using React and Web3.js</li>
             <li>Created a hybrid payments system that allowed users to pay with either cryptocurrency or fiat money.</li>
             <li>Used IPFS for image storage with NFT metadata pointing to IPFS.</li>
           </ul>
         </ColorCard>
         <ColorCard caption={"Decentralized Exchange"} period={'JAN 2020 - AUG 2020'}
-          contentCap={'Web3 | Smart Contracts Developer'}
+          contentCap={'Senior Frontend | Blockchain Developer'}
           co={'Zigzag'}>
           <ul>
             <li>Built crypto exchange platform with React and web3.js.</li>
-            <li>Create smart contract to build cryptocurrency exchange system.</li>
-            <li>Built the front end of cryptocurrency exchange system in React and integrated with Web3.js.</li>
+            <li>Built smart contract with Solidity to build cryptocurrency exchange system and deployed using Truffle.</li>
+            <li>Built the frontend of crypto exchange in React and integrated with Web3.js.</li>
+            <li>Worked on building trading view, swap modal using React, TypeScript and Web3.js.</li>
           </ul>
         </ColorCard>
         <ColorCard
@@ -42,6 +44,8 @@ export default function Employment() {
           contentCap={'Blockchain Developer'}>
           <ul>
             <li>Developed the {/* first version of Ethichub's */} P2P lending platform based on Ethereum.</li>
+            <li>Built Smart Contract with soldity and made ERC721, ERC20 token.</li>
+            <li>Built frontend of lending platform with React and Web3.js.</li>
             <li>Organized and successfully carried out a pre-ICO for project fundraising.</li>
             <li>Participated in technical meetings about designing the Ethichub solution.</li>
           </ul>

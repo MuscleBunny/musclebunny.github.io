@@ -17,7 +17,7 @@ export default function Employment() {
       Employment
     </TypographyCaption>
       <CardContent>
-        <ColorCard caption={"NFT Marketplace"} period={'AUG 2020 - Feb 2022'} contentCap={'Senior Frontend | Smart Contract Developer'}
+        <ColorCard caption={"NFT Marketplace"} period={'AUG 2020 - Feb 2022'} contentCap={'Senior Blockchain Developer'}
           co={'Portion'}>
           <ul>
             <li>Developed an app similar to OpenSea that creates a marketplace of NFTs.</li>
@@ -28,7 +28,7 @@ export default function Employment() {
           </ul>
         </ColorCard>
         <ColorCard caption={"Decentralized Exchange"} period={'JAN 2020 - AUG 2020'}
-          contentCap={'Senior Frontend | Blockchain Developer'}
+          contentCap={'Senior Blockchain Developer'}
           co={'Zigzag'}>
           <ul>
             <li>Built crypto exchange platform with React and web3.js.</li>
